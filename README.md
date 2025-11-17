@@ -2,6 +2,22 @@
 
 An application for identifying legal citations in documents and websites using FreeLawProject's [eyecite](https://github.com/freelawproject/eyecite) library and verifying them through [CourtListener's Legal Citation API](https://www.courtlistener.com/help/api/rest/citations/).
 
+## 🚀 Quick Start
+
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Run quick test
+python3 quick_test.py
+
+# Try examples
+python3 example_usage.py
+
+# See full demo
+python3 demo.py
+```
+
 ## Features
 
 - **Citation Extraction**: Automatically identify legal citations in text, documents, or websites
@@ -139,12 +155,24 @@ The system can identify various types of legal citations:
 
 ```
 Application-development/
-├── citation_processor.py    # Main citation processing module
-├── example_usage.py         # Example usage demonstrations
-├── requirements.txt         # Python dependencies
-├── .env.example            # Environment variable template
-├── .gitignore             # Git ignore rules
-└── README.md              # This file
+├── citation_processor.py       # Main citation processing module
+├── example_usage.py           # Example usage demonstrations
+├── demo.py                    # Comprehensive feature demonstration
+├── quick_test.py              # Quick verification test
+├── test_citation_processor.py # Unit tests (14 test cases)
+├── requirements.txt           # Python dependencies
+├── .env.example              # Environment variable template
+├── .gitignore                # Git ignore rules
+├── CONFIGURATION.md          # Detailed configuration guide
+└── README.md                 # This file
+```
+
+## Additional Resources
+
+- **[CONFIGURATION.md](CONFIGURATION.md)** - Detailed setup and configuration guide
+- **[example_usage.py](example_usage.py)** - Practical code examples
+- **[demo.py](demo.py)** - Comprehensive feature demonstrations
+- **[test_citation_processor.py](test_citation_processor.py)** - Test suite with examples
 ```
 
 ## How It Works
