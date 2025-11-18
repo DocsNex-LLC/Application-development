@@ -32,7 +32,7 @@ cp .env.example .env
 Edit `.env` and add your token:
 
 ```
-COURTLISTENER_API_TOKEN=3149ff4a1dfd96b754c75d1afc4366e2177c1f2f<img width="318" height="18" alt="image" src="https://github.com/user-attachments/assets/91c2657f-aa9c-4621-90f3-e935e1440e76" />
+COURTLISTENER_API_TOKEN=3149ff4a1dfd96b754c75d1afc4366e2177c1f2f
 
 ```
 
